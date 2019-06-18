@@ -21,8 +21,10 @@ Algunes extensions necessaries en qualsevol instal·lació:
 ## SSL
 Si tenim el com_botiga i fem servir redsys a la configuració global ha de desactivar-se el ssl i al htaccess afegir aquestes linies al final:
 
+~~~
 ##configuració especifica per redsys sota ssl
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteCond %{QUERY_STRING} !(^|&)view=callback(&|$)
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+~~~
