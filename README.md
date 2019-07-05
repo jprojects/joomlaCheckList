@@ -20,6 +20,7 @@ Algunes extensions necessaries en qualsevol instal·lació:
 
 ## Comproprovar resolucions
 * http://whatismyscreenresolution.net/multi-screen-test
+* Acordar llista de resolucions standard
 
 ## SSL
 Si tenim el com_botiga i fem servir redsys a la configuració global ha de desactivar-se el ssl i al htaccess afegir aquestes linies al final:
