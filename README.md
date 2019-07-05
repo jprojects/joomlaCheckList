@@ -18,6 +18,9 @@ Algunes extensions necessaries en qualsevol instal·lació:
 * Secure Login
 * Mòdul administració Afi Notify per mostrar publicitat
 
+##Comproprovar resolucions
+* http://whatismyscreenresolution.net/multi-screen-test
+
 ## SSL
 Si tenim el com_botiga i fem servir redsys a la configuració global ha de desactivar-se el ssl i al htaccess afegir aquestes linies al final:
 
