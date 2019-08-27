@@ -31,4 +31,10 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteCond %{QUERY_STRING} !(^|&)view=callback(&|$)
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#La url del reset password falla en aquestes condicions la modifiquem
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+#RewriteCond %{QUERY_STRING} !(^|&)layout=confirm&token=(.+?)$
+#RewriteRule ^ https://%{HTTP_HOST}%password-reset{REQUEST_URI}  [L,R=301]
 ~~~
