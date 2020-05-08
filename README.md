@@ -16,7 +16,7 @@ Algunes extensions necessaries en qualsevol instal·lació:
 
 * Email as username (properament inclós en el JPFramework)
 * Secure Login
-* Mòdul administració Afi Notify per mostrar publicitat
+* Activar plugin redirect per recolectar links trencats 404 i poder donar-los una solució
 
 ## Comproprovar resolucions
 * http://whatismyscreenresolution.net/multi-screen-test
